@@ -1,0 +1,13 @@
+<p>
+  <b>Description:</b>
+  <%=h @comment.description %>
+</p>
+
+<p>
+  <b>Employee:</b>
+  <%=h @comment.employee %>
+</p>
+
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>
